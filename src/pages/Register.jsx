@@ -1,7 +1,7 @@
-import { useAuth } from "./Context/AuthContext";
-import  { useState } from "react";
+import { useAuth } from "../context/AuthContext";
+import { useState } from "react";
 import "./Register.css";
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 function Registration() {
   const navigate = useNavigate();
   const { register } = useAuth();
